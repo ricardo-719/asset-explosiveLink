@@ -34,4 +34,45 @@ p, a {
 
 .fancy > .letter {
     display: inline-block;
+    transition: transform 350ms ease;
+}
+
+.fancy:hover > .letter:nth-child(1) {
+    transform: translate(-40%, 60%) rotate(8deg);
+    transition-duration: 800ms;
+}
+
+.fancy:hover > .letter:nth-child(2) {
+    transform: translate(-10%, 8%) rotate(-6deg);
+    transition-duration: 800ms;
+}
+
+.fancy:hover > .letter:nth-child(3) {
+    transform: translate(0%, 8%) rotate(-8deg);
+    transition-duration: 800ms;
+}
+
+.fancy:hover > .letter:nth-child(4) {
+    transform: translate(0%, -20%) rotate(-3deg);
+    transition-duration: 800ms;
+}
+
+.fancy:hover > .letter:nth-child(5) {
+    transform: translate(0%, -40%) rotate(-5deg);
+    transition-duration: 800ms;
+}
+
+.fancy:hover > .letter:nth-child(6) {
+    transform: translate(0%, 15%) rotate(10deg);
+    transition-duration: 800ms;
+}
+
+.fancy:hover > .letter:nth-child(7) {
+    transform: translate(0%, -50%) rotate(8deg);
+    transition-duration: 800ms;
+}
+
+.fancy:hover > .letter:nth-child(8) {
+    transform: translate(0%, 15%) rotate(-6deg);
+    transition-duration: 800ms;
 }
