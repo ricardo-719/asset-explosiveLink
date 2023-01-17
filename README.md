@@ -2,7 +2,7 @@
 
 Asset Projects are small simple projects with a very specific functionality; these assets then can be used as reference and be implemented in bigger projects.
 
-In this project I use a function to separate a link into each of its letters. Then to each of these letters are given attibutes of behavior on hover. The animation is supposed to be fun and playful, and the animations of each letter can be modified to fit the needs of each particular project.
+In this project I used a function to separate a link into each of its letters. Then to each of these letters are given properties of behavior on hover. The animation is supposed to be fun and playful, and the animations of each letter can be modified to fit the needs of each particular project.
 
 Screenshot 1: 
 
